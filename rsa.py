@@ -91,8 +91,8 @@ def decrypt(pk, ciphertext):
 
 if __name__ == '__main__':
     print("RSA Implementation for CARS")
-    p = int(input("Enter a prime number (17, 19, 23, etc): "))
-    q = int(input("Enter another prime number (Not the one you entered above): "))
+    p = int(83)
+    q = int(89)
     print("Generating your public/private keypairs now . . .")
     public,private = generate_keypair(p,q)
     print("Your public key is ", public ," and your private key is ", private)
